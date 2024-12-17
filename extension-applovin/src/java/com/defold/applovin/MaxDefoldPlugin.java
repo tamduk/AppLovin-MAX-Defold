@@ -778,18 +778,6 @@ public class MaxDefoldPlugin
     }
 
     @Override
-    public void onRewardedVideoCompleted(final MaxAd ad)
-    {
-        // This event is not forwarded
-    }
-
-    @Override
-    public void onRewardedVideoStarted(final MaxAd ad)
-    {
-        // This event is not forwarded
-    }
-
-    @Override
     public void onUserRewarded(final MaxAd ad, final MaxReward reward)
     {
         final MaxAdFormat adFormat = ad.getFormat();
